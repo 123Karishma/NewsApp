@@ -1,0 +1,32 @@
+.background{
+    background: linear-gradient(to right, skyblue,darkblue,black);
+  font-size: 1.2rem;
+  
+
+}
+.active{
+    border-bottom: 3px solid white;
+}
+.source-date{
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+.card-title{
+  font-size: 1rem;
+  height: 90px;
+}
+.card-text{
+  font-size: 0.9rem;
+  height: 200px;
+}
+
+@media only screen and (min-width:576) and (max-width:1199px){
+  .card-title{
+    height: 90px;
+  }
+
+  .card-text{
+    height: 180px;
+  }
+}
